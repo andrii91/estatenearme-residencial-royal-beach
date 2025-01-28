@@ -1,0 +1,28 @@
+//colors
+// @import 'info/colors';
+//end colors
+
+@import 'info/fonts';
+@import 'info/reset';
+@import 'info/grid';
+@import 'info/fancybox';
+@import 'info/slick';
+@import 'info/leaflet';
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--alteco-blue);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--alteco-dark);
+}
+
+@import 'info/main';

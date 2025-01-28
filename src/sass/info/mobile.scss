@@ -1,0 +1,388 @@
+& {
+  .header {
+    padding-top: 88px;
+    padding-bottom: 62px;
+    min-height: auto;
+
+    &-logo {
+      display: none;
+    }
+    
+    &-item {
+      h1 {
+        font-size: 36px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .btn-regular {
+    padding: 16px;
+    max-width: 230px;
+    width: 100%;
+  }
+
+  .modal#get-price .modal-dialog {
+    padding: 50px 16px 16px;
+    text-align: center;
+    .get-price-form {
+      h2 {
+        font-size: 24px;
+        margin-bottom: 12px;
+      }
+
+      p {
+        font-size: 14px;
+        margin-bottom: 16px;
+      }
+
+      h4 {
+        font-size: 16px;
+      }
+
+      &-inputs {
+        padding: 32px 24px;
+        max-width: 100%;
+      }
+    }
+  }
+
+  .xs-block {
+    display: block;
+  }
+
+  .xs-none {
+    display: none;
+  }
+
+  .call-me {
+    width: 50px;
+    height: 50px;
+
+    .icon {
+      width: 24px;
+      height: 24px;
+    }
+
+    &-item {
+      h2 {
+        font-size: 24px;
+    
+      }
+  
+      p {
+        font-size: 14px;
+      } 
+
+    }
+  }
+
+  .btn-group {
+    gap: 16px;
+  }
+
+  .apartment {
+    text-align: center;
+
+    h2 {
+      margin-bottom: 24px;
+    }
+
+    &-summ {
+      text-align: center;
+
+      h4 {
+        font-size: 24px;
+      }
+
+      p {
+        margin-top: 8px;
+        justify-content: center;
+      }
+    }
+
+    &-hr {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+  }
+
+  .gallery {
+    h3 {
+      font-size: 16px;
+    }
+    .gallery-count {
+      font-size: 14px;
+    }
+    &-slider {
+      margin-top: 24px;
+      &-mobile {
+        display: block;
+        padding-bottom: 64px;
+  
+        .slick-arrow {
+          transform: none;
+          top: auto;
+          bottom: 0;
+          height: 40px;
+          width: 40px;
+        }
+      }
+  
+      &-desktop {
+        display: none;
+      }
+    }
+  }
+
+  .get-info-form {
+    h3 {
+      font-size: 24px;
+    }
+    padding: 32px;
+
+  }
+
+  .get-info-form-btn {
+    max-width: 100%;
+    margin-bottom: 0;
+    margin-top: 16px;
+  }
+
+  .schedule {
+    &-row {
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    &-col {
+      flex-direction: row;
+    }
+
+    &-head {
+      text-align: left;
+      width: 40%;
+      padding: 10px 20px;
+      font-size: 12px;
+      align-items: flex-start;
+      min-height: auto;
+      min-width: none;
+      flex-direction: column;
+    }
+
+    &-content {
+      width: 60%;
+      align-items: flex-start;
+      text-align: left;
+      min-height: auto;
+      font-size: 12px;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+
+  .characteristics .show-more {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .characteristics-row {
+    gap: 12px;
+  }
+
+  .characteristics-card {
+    &:not(.characteristics-card--small) {
+      max-width: calc(50% - 6px);
+      min-width: auto;
+    }
+  }
+
+  .plans {
+    .container {
+      position: relative;
+    }
+    &-slider {
+      margin-top: 24px;
+      padding-bottom: 64px;
+        .slick-arrow {
+          transform: none;
+          top: auto;
+          bottom: 0;
+          height: 40px;
+          width: 40px;
+        }
+    }
+
+    .btn-get-price-mob  {
+      max-width: 164px;
+      margin-left: auto;
+      margin-right: auto;
+      position: absolute;
+      bottom: -6px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .amenities {
+    padding-bottom: 40px;
+    &:before {
+      height: 100%;
+    }
+  }
+  
+  .materials {
+    h2 {
+      font-size: 16px;
+    }
+    &-list {
+      gap: 8px;
+      li {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .tour {
+    padding-bottom: 40px;
+    h2 {
+      margin-bottom: 24px;
+    }
+  }
+
+  .map {
+    &-frame {
+      margin-top: 24px;
+    }
+  }
+
+  .order-first {
+    order: -1;
+  }
+
+  .assistance {
+    &-manager {
+      flex-direction: column;
+      padding: 40px 16px;
+      margin: 0 -12px;
+
+      &-content {
+        text-align: center;
+        max-width: 100%;
+
+        &-row {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 12px;
+        }
+      }
+
+      &-mob {
+        display: flex;
+        gap: 24px;
+      }
+
+      &-photo {
+        img {
+          width: 112px;
+          height: 125px;
+        }
+      }
+
+      &-button {
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+
+        .btn-regular {
+          max-width: 100%;
+        }
+      }
+
+      &-badge {
+        display: inline-block;
+        width: fit-content;
+      }
+    }
+  }
+
+  .contacts {
+    min-height: auto;
+    padding-bottom: 40px;
+    overflow: hidden;
+
+    &::before {
+      height: auto;
+      bottom: 0;
+      right: -145px;
+      opacity: 0.4;
+    }
+
+    &-item {
+      max-width: 100%;
+      margin-top: 24px;
+      padding: 24px;
+    }
+  }
+
+  .footer {
+    text-align: center;
+    img {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 16px;
+    }
+  }
+
+  .order-first {
+    order: -1 !important;
+  }
+
+  .consultation {
+    &-img {
+      &-mob {
+        width: 100%;
+        height: 64px;
+        object-fit: cover;
+      }
+    }
+
+    &-item {
+      padding: 16px;
+      h3 {
+        font-size: 18px;
+      }
+      p, ul {
+        font-size: 14px;
+        gap: 8px;
+      }
+    }
+
+    &-submit {
+      max-width: 100%;
+    }
+  }
+
+  #consultation {
+    .modal-container {
+      flex-direction: column;
+      max-height: 80vh;
+    }
+
+    .close {
+      color: #fff;
+    }
+  }
+
+  .assistance-manager-phone {
+    font-size: 19px;
+  }
+}

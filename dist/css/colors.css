@@ -1,0 +1,15 @@
+:root {
+  /* root color */
+  --alteco-blue: #7BA2BF;
+  --alteco-light: #DEECF7;
+  --alteco-gray: #F2F2F2;
+  --alteco-dark: #3E5D74;
+  --alteco-orange: #FF6B2A;
+  /* end root color */
+
+  /* other color */
+  --alteco-header-bg: #5989AF;
+  --alteco-white: #ffffff;
+  --alteco-gray-800: #1A1A1A;
+  --alteco-gray-700: #424242
+}
