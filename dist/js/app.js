@@ -186,9 +186,6 @@ $( document ).ready(function() {
     const $this = $(this);
     $this.parents('.modal').removeClass('show');
     $('body').removeClass('overflow-hidden')
-    if ($this.parents('.modal').attr('id') === 'media') {
-      $this.parents('.modal').find('.modal-content').text('')
-    }
   })
 
   $(document).mouseup(function (e) {
@@ -197,7 +194,6 @@ $( document ).ready(function() {
       container.parents('.modal').removeClass('show');
       $('body').removeClass('overflow-hidden');
 
-      $('#media').find('.modal-content').text('')
     }
   });
 
