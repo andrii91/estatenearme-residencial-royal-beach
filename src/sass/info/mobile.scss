@@ -3,7 +3,14 @@
     padding-top: 88px;
     padding-bottom: 62px;
     min-height: auto;
-
+    background: 
+    linear-gradient(180deg, #ffffff00 95%, var(--alteco-white) 100%), 
+    linear-gradient(180deg, var(--alteco-header-bg) 50%, rgba(142, 174, 200, 0.68) 85%, rgba(255, 255, 255, 0.00) 100%, rgba(187, 207, 222, 0.00) 100%), 
+    url('../images/header-bg-mob.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
     &-logo {
       display: none;
     }
