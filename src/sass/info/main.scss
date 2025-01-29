@@ -1892,7 +1892,7 @@ h2 {
   &-list {
     list-style: none;
     padding: 0;
-    margin: 0 auto 32px;
+    margin: 0 auto ;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -2537,9 +2537,14 @@ iframe {
     }
   }
 }
+
 .overflow-hidden {
   overflow: hidden !important;
 }
+
+.mr-auto {
+  margin-right: auto;
+} 
 
 body {
   overflow-x: hidden;
