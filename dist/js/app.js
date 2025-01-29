@@ -242,6 +242,7 @@ $( document ).ready(function() {
     infinite: true,
     speed: 300,
     slidesToShow: 1,
+    lazyLoad: 'ondemand',
     prevArrow: '<button class="carousel-prev"><svg><use xlink:href="#arrow-left"></use></svg></button>',
     nextArrow: '<button class="carousel-next"><svg><use xlink:href="#arrow-right"></use></svg></button>',
   });
@@ -249,7 +250,7 @@ $( document ).ready(function() {
   function toggleBlockMore() {
     $('.block-more').each(function(){
       const blockMore = $(this);
-      const li = blockMore.find('li');
+      const li = blockMore.find('li'); 
       let showItem = 8;
   
       if(isMobile()) {
